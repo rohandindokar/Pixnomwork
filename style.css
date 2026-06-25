@@ -187,9 +187,9 @@ p{ margin:0 0 1em; color:var(--ink-soft); }
 
 /* ===================== PROCESS ===================== */
 .process{ background:var(--ink); max-width:none; color:var(--paper); }
+.process-inner{ max-width:var(--max); margin-inline:auto; padding:0 24px; }
 .process .section-head{ max-width:640px; }
 .process-list{
-  max-width:var(--max); margin-inline:auto; padding:0 24px;
   display:grid; grid-template-columns:repeat(3,1fr); gap:32px;
 }
 .process-num{ font-family:var(--font-mono); color:var(--tan); font-size:0.95rem; display:block; margin-bottom:10px; }
